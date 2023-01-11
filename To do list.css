@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+Body {
+    /* background-color: rgb(194, 187, 192); */
+    margin: 10% 10%;
+    background-image: url(https://www.wallpapertip.com/wmimgs/24-249670_high-resolution-wooden-background-hd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    z-index: 1;
+}
+
+
+
+
+/* ------CSS ---complete---to do list----- */
+.todo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    border-radius: .4rem;
+    background-color: whitesmoke;
+    text-align: center;
+
+}
+
+
+/* ---CSS for -----Header---- */
+
+.header {
+
+    background: linear-gradient(to right, #3498db, rgb(27, 27, 186));
+    padding: 1rem;
+    border-radius: .4rem;
+}
+
+h3 {
+    color: white;
+}
+
+.main {
+    display: flex;
+    padding: 10px;
+}
+
+
+#add_input{
+    background-color: white;
+    
+}
+
+.main button {
+    margin-left: 1rem;
+}
+
+
+
+
+/* ------List of tasks---- */
+.items {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gray;
+    margin: .2rem 0rem;
+    text-align:justify;
+    width: 100%;
+    height:100%;
+
+
+}
+
+.items:hover{
+    background-color: rgb(109, 108, 108);
+    text-transform: capitalize;
+    color: white;
+}
+
+
+/* CSS for ------check , edit and delete buttons------- */
+
+#tools :hover {
+    font-size: larger;
+
+}
+
+
+#del:hover {
+    color: rgb(240, 1, 1);
+    border-radius: .1rem;
+    
+   
+}
+
+#check:hover {
+ 
+    border-radius: .3rem;
+    color: rgb(153, 255, 0);
+}
+
+#edit:hover {
+    color: rgb(255, 251, 11);
+    border-radius: .3rem;
+}
+
+
+
+#tools i {
+    margin: .1rem;
+    padding-right: 0px;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+
+
+/* ------CSS for-----Footer--- */
+
+
+
+.hide{
+    display: none;
+}
+
+.footer {
+    background-color: rgb(78, 76, 76);
+    border-radius: .1rem;
+    padding: 1rem;
+    margin-top: 5rem;
+  
+}
+
+/* Submit and Cancel buttons----css-- */
+
+.footer button {
+    margin: 1rem 2rem;
+    border: hidden;
+    padding: .4rem 4rem;
+    border-radius: .2rem;
+    width: auto;
+}
